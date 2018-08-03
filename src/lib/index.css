@@ -1,0 +1,54 @@
+.vue-toast{
+    position:fixed; 
+    z-index: 999;
+    padding:10px;
+    background:#000;
+    opacity:.7;
+    text-align:center;
+    line-height:50px;
+    color:yellow;
+    border-radius:10px;
+}
+.toast-center{
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+}
+.toast-top{
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);  
+}
+.toast-bottom{
+    bottom:10%;
+    left: 50%;
+    transform: translateX(-50%);  
+}
+
+
+
+
+@media screen and (min-width:1px) and (max-width:420px){
+    .vue-toast{
+        font-size:16px;
+    } 
+}
+
+@media screen and (min-width:421px) and (max-width:768px){
+    .vue-toast{
+        font-size: 24px;
+    } 
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .vue-toast{
+        font-size: 30px;
+    } 
+}
+@media screen and (min-width:1025px){
+    .vue-toast{
+        font-size: 24px;
+    } 
+}
+
+

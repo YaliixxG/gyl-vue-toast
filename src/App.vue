@@ -29,7 +29,7 @@ export default {
     }
   },
   mounted () {
-  
+  this.$toast('哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊','bottom')
   }
 }
 </script>
