@@ -1,7 +1,7 @@
 # vuetoastoast
 
 > plugin  
-一个简单的提示插件，第一版仅仅是center位置提示，后续会加上样式更改，以及位置的变化
+一个简单的提示插件，提供内容和显示位置两个参数
 
 #### 安装  
     npm i vuetoasttoast  
